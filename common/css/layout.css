@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*
+	Last Update:2019/11/18
+	Auther: okada
+*/
+/*===================================================================
+	layout
+===================================================================*/
+html { background:#fff; }
+body { position:relative; text-align:center; overflow-x:hidden; }
+#base, #body { position:relative; color: #6A4428;}
+
+.wrapper, .wrapper-t, .wrapper-b { position:relative; }
+	@media (max-width: 576px){
+		.wrapper, .wrapper-t { padding-top:70px; }
+		.wrapper, .wrapper-b { padding-bottom:70px; }
+	}
+	@media (min-width: 576px){
+		.wrapper, .wrapper-t { padding-top:100px; }
+		.wrapper, .wrapper-b { padding-bottom:100px; }
+	}
+
+.center, .center2,
+.center3, .center4 { margin:0 auto; text-align:left; }
+.center { max-width:1350px; }
+.center2 { max-width:850px; }
+.center3 { max-width:1100px; }
+.center4 { max-width:600px; }
+	@media (max-width:1380px){
+		.center { padding-left:15px; padding-right:15px; }
+	}
+	@media (max-width: 880px){
+		.center2 { padding-left:15px; padding-right:15px; }
+	}
+	@media (max-width:1130px){
+		.center3 { padding-left:15px; padding-right:15px; }
+	}
+	@media (max-width: 630px){
+		.center4 { padding-left:15px; padding-right:15px; }
+	}
+
+
+/*===================================================================
+	#head
+===================================================================*/
+#head { position:absolute; left:0; top:0; width:100%; z-index:990; text-align:left; }
+#head .head_wrap { position:relative; display:table; width:100%; margin:0 auto; }
+#head .head_wrap > * { display:table-cell; vertical-align:top; }
+#head .site_logo {}
+#head .site_logo a { display:block; max-width:600px; }
+#head_contact .flex{display: flex;  justify-content: flex-end; margin-right: 50px;}
+#head_contact .flex .img{display: flex; align-items: center;}
+#head_contact a { text-decoration:none; color: #FFB0AC; font-size: 40px; font-weight: bold;}
+#head_contact img{ width: 50px;}
+
+
+/*===================================================================
+	#foot
+===================================================================*/
+#foot { position:relative; color:#919191; background:url(../image/foot/foot.png) no-repeat center bottom / 100% auto; }
+#foot a { color:#6A4428; text-decoration:none; }
+#copyright { font-size: 14px; text-align: center; color: #FF8BA1;}
+
+#pagetop { position:fixed; bottom:0; right:0; z-index:9000;  line-height:100%; }
+#pagetop a { color:#fff; text-decoration:none; display:block; padding:20px 25px; background: #FFB0AC; border-top-left-radius: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; border-top-right-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topright: 5px }
+#pagetop a span { display:inline-block; border-top:2px solid #fff; padding:5px 0 0; }
+body.pc #pagetop a:hover { opacity:0.8; }
+
+	@media (max-width: 767px){
+		#foot { padding:30px 15px 70px; }
+		#foot .logo img { max-width:250px; }
+		#pagetop { font-size:20px; }
+		#foot .foot_wrap { font-size:0.9em; text-align:center; padding: unset!important;  }
+		#copyright { border-top:unset; }
+		#foot a{display:block; padding: 10px 0;}
+	}
+	@media (min-width: 768px){
+		#foot { padding:30px 15px; }
+		#foot .logo img { max-width:250px; }
+		#pagetop { font-size:40px; }
+		#foot .foot_wrap { text-align:center; }
+	}
