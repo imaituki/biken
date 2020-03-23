@@ -15,7 +15,8 @@
 	@media (max-width: 767px){
 		#main_image .unit .center { padding-bottom:50px; }
 		#main_image .unit .text_in { vertical-align:bottom; }
-		#main_image .unit .text img { width:74%; }
+
+
 	}
 	@media (min-width: 768px){
 		#main_image,
@@ -23,6 +24,19 @@
 		#main_image .unit .text_in { vertical-align:middle; }
 		#main_image .unit .text img { width:58%; }
 	}
+
+	@media (min-width: 768px) and (max-width:1599px){
+		#main_image .unit .text img {width: 45%; margin-top: 100px; margin-left: 50px;}
+	}
+	@media (min-width: 1600px)  and (max-width:1919px){
+		#main_image .unit .text img { width:50%; }
+
+	}
+	@media (min-width: 1920px){
+		#main_image .unit .text img { width:60%; }
+		#main_image .unit .center { margin-left: 200px;   margin-top: 50px;}
+	}
+
 
 #body{  background: url(../image/contents/top/back.png) no-repeat center top / cover;}
 
@@ -47,6 +61,7 @@
     margin: auto;
 }
 #top_flow h2{margin-bottom: 100px;}
+#top_flow h2 span.sub{max-width: 150px;}
 #top_flow .balloon::before{ content: ''; position: absolute; display: block; bottom: -12px; left: 50%; margin-left: -6px; border-right: 6px solid transparent; border-top: 12px solid #FFB5B1; border-left: 6px solid transparent;}
 
 #top_flow .balloon::after{ content: ''; position: absolute; display: block; width: 0; height: 0; left: 38px; bottom: -10px; border-right: 6px solid transparent; border-top: 12px solid #fff; border-left: 6px solid transparent;}
@@ -76,26 +91,47 @@
 	#top_flow .flex .arrow{margin-bottom: 100px; text-align: center;}
 	#top_flow .flex .arrow i{ font-size: 8em;}
 }
-#top_contact .center{background: url(../image/contents/top/contact.png);     padding: 50px 0;     border-radius: 5px;}
+
+#top_contact .back{background: url(../image/contents/top/contact_back.png); border-radius: 5px;    padding: 50px 15px;}
+
+
 #top_contact h2{color: #FFF;}
-#top_contact h2 span.sub{color: #D9B4AB;}
+#top_contact h2 span.sub{max-width: 230px;}
 #top_contact .box{ border-radius: 5px; box-shadow: 0px 2px 7px 0px #ccc; background: #fff; }
-#top_contact .unit{padding: 0 50px;}
+#top_contact #tel{padding: 25px 10px;}
+#top_contact #mail{padding: 0 10px;}
 #top_contact #tel .flex{display: flex;  justify-content: center; }
 #top_contact #tel .flex .img{display: flex; align-items: center;}
+#top_contact #tel .time{text-align:center; color: #909090;}
 #top_contact #tel a { text-decoration:none; color: #FFB0AC; font-size: 40px; font-weight: bold;}
 #top_contact #tel img{ width: 50px;}
 #top_contact #mail p{color: #FFB0AC; font-size: 28px; font-weight: bold;}
 #top_contact #mail p i{margin-right: 10px;}
+
+@media (min-width: 768px){
+	#top_contact .unit{padding: 0 50px;}
+}
+@media (max-width: 991px){
+	#top_contact #tel a { font-size: 30px;}
+}
+@media (max-width: 767px){
+	#top_contact #tel {margin-bottom: 10px;}
+	#top_contact #tel a{font-size: 27px;}
+	#top_contact #tel img { width: 30px;}
+}
+
 
 /*===================================================================
 	hl
 ===================================================================*/
 h2 { font-size: 44px; line-height: 125%; color: #FFB5B1; text-align: center;}
 h2 span.main{font-weight: bold;}
-h2 span.sub{ display: block; color: #E5C7C0; font-size: 40px; }
+h2 span.sub{ display: block; display: block;
+    margin: 0 auto;}
 h3{font-size:30px; text-align: center; color: #FFB5B1; margin-bottom: 20px; font-weight: bold;}
-
+@media (max-width: 767px){
+	h2 {font-size: 40px;}
+}
 
 /*===================================================================
 	button

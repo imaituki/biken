@@ -43,15 +43,63 @@ body { position:relative; text-align:center; overflow-x:hidden; }
 /*===================================================================
 	#head
 ===================================================================*/
-#head { position:absolute; left:0; top:0; width:100%; z-index:990; text-align:left; }
+#head {left:0; top:0; width:100%; z-index:990; text-align:left; }
 #head .head_wrap { position:relative; display:table; width:100%; margin:0 auto; }
-#head .head_wrap > * { display:table-cell; vertical-align:top; }
-#head .site_logo {}
 #head .site_logo a { display:block; max-width:600px; }
-#head_contact .flex{display: flex;  justify-content: flex-end; margin-right: 50px;}
+#head_contact .flex{display: flex;}
 #head_contact .flex .img{display: flex; align-items: center;}
 #head_contact a { text-decoration:none; color: #FFB0AC; font-size: 40px; font-weight: bold;}
 #head_contact img{ width: 50px;}
+#head_contact span.time{display: block; color: #555555; font-weight: bold; line-height: 5px; }
+
+@media (min-width: 768px){
+	#head_contact{text-align: right;}
+	#head { position:absolute; }
+	#head .site_logo {max-width: 150px;}
+	#head .head_wrap > * { display:table-cell; vertical-align:top; }
+	#head .head_wrap {display:table;}
+	#head_contact .flex{justify-content: flex-end; margin-right: 50px;}
+
+}
+@media (max-width: 767px){
+	#head_contact{ margin: 30px 0;}
+	#head .site_logo {width: 100%;}
+	#head_contact .flex {justify-content: center;}
+	#head_contact span.time { text-align: center;}
+	#head_contact a { font-size: 35px;}
+}
+
+
+	@media (min-width: 768px) and (max-width:1199px){
+		#head .site_logo { max-width: 350px;}
+		#head_contact a {    font-size: 30px;}
+		#head_contact span.time {font-size: 13px;}
+	}
+	@media (min-width: 1200px) and (max-width:1599px){
+		#head_contact span.time { padding: 0px 15px;}
+		#head .site_logo { max-width: 250px;}
+	}
+
+	@media (max-width: 767px){
+		#head_contact .fa-phone-alt{ display: none;}
+	}
+	@media (min-width: 768px){
+		#head_contact .fa-phone-alt{ display: none;}
+	}
+
+	@media (min-width: 768px) and (max-width:1599px){
+		#head_contact {    text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #fff}
+		#head_contact .fa-phone-alt{display: block; font-size: 29px; color: #FFB0AC; margin-right: 5px; }
+		#head_contact .img img{display: none;}
+	}
+	@media (min-width: 1600px)  and (max-width:1919px){
+		#head_contact .fa-phone-alt{ display: none;}
+
+	}
+	@media (min-width: 1920px){
+		#head_contact .fa-phone-alt{ display: none;}
+
+	}
 
 
 /*===================================================================
