@@ -102,8 +102,8 @@
 #top_contact #mail{padding: 0 10px;}
 #top_contact #tel .flex{display: flex;  justify-content: center; }
 #top_contact #tel .flex .img{display: flex; align-items: center;}
-#top_contact #tel .time{text-align:center; color: #909090;}
-#top_contact #tel a { text-decoration:none; color: #FFB0AC; font-size: 40px; font-weight: bold;}
+#top_contact #tel .time{text-align:center; color: #909090; font-size: 13px;}
+#top_contact a { text-decoration:none; color: #FFB0AC; font-size: 40px; font-weight: bold; display: block;}
 #top_contact #tel img{ width: 50px;}
 #top_contact #mail p{color: #FFB0AC; font-size: 28px; font-weight: bold;}
 #top_contact #mail p i{margin-right: 10px;}
@@ -112,11 +112,12 @@
 	#top_contact .unit{padding: 0 50px;}
 }
 @media (max-width: 991px){
-	#top_contact #tel a { font-size: 30px;}
+	#top_contact  a{ font-size: 30px;}
 }
 @media (max-width: 767px){
+	#top_contact #mail {padding: 30px 10px;}
 	#top_contact #tel {margin-bottom: 10px;}
-	#top_contact #tel a{font-size: 27px;}
+	#top_contact a{font-size: 27px;}
 	#top_contact #tel img { width: 30px;}
 }
 
