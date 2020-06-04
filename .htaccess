@@ -1,21 +1,10 @@
-<Files ~ "^\.(htaccess|htpasswd)$">
-deny from all
-</Files>
-AuthUserFile /usr/home/haw1007mxp9i/html/.htpasswd
-AuthGroupFile /dev/null
-AuthName "Please enter your ID and password"
-AuthType Basic
-require valid-user
-order deny,allow
-
-
 Options +SymlinksIfOwnerMatch
-RewriteEngine on
+RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^la-vraie-beaut\.jp
-RewriteRule ^(.*) https://www.la-vraie-beaut.jp/$1 [R=301,L]
+
+# SSL統一
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=302,L]
 
 #404 エラー
-ErrorDocument 404 https://www.la-vraie-beaut.jp/
+ErrorDocument 404 https://la-vraie-beaut.jp/

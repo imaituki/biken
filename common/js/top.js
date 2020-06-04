@@ -18,8 +18,8 @@ $(function () {
 });
 
 // slick
-document.write('<script type="text/javascript" src="common/js/slick/slick.min.js"></script>');
-document.write('<link rel="stylesheet" href="common/js/slick/slick.css" type="text/css">');
+document.write('<script type="text/javascript" src="/common/js/slick/slick.min.js"></script>');
+document.write('<link rel="stylesheet" href="/common/js/slick/slick.css" type="text/css">');
 
 // for top
 $(function () {

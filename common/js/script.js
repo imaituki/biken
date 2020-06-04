@@ -1,5 +1,5 @@
 // jquery.matchHeight-min.js
-document.write('<script type="text/javascript" src="common/js/jquery.matchHeight-min.js"></script>');
+document.write('<script type="text/javascript" src="/common/js/jquery.matchHeight-min.js"></script>');
 var ua = navigator.userAgent;
 var os, ver = '', browser = '', ie = '', sp = 0;
 var bpx = 768;
@@ -161,10 +161,10 @@ $(function () {
 	$('#btn_open a').on('click', function () {
 		$('#base').toggleClass('open');
 		if ($('#menu_cover').get(0)) {
-			$(this).html('<img src="common/image/head/sp_menu.png" alt="">');
+			$(this).html('<img src="/common/image/head/sp_menu.png" alt="">');
 			$('#menu_cover').remove();
 		} else {
-			$(this).html('<img src="common/image/head/sp_menu_b.png" alt="">');
+			$(this).html('<img src="/common/image/head/sp_menu_b.png" alt="">');
 			$('#base').append('<div id="menu_cover"></div>');
 		}
 		return false;
@@ -279,8 +279,8 @@ function ParallaxScroll() {
 }
 
 // slick
-document.write('<script type="text/javascript" src="common/js/slick/slick.min.js"></script>');
-document.write('<link rel="stylesheet" href="common/js/slick/slick.css" type="text/css">');
+document.write('<script type="text/javascript" src="/common/js/slick/slick.min.js"></script>');
+document.write('<link rel="stylesheet" href="/common/js/slick/slick.css" type="text/css">');
 
 $(function () {
 		$('#search').slick({
