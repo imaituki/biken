@@ -103,7 +103,7 @@
 
 }
 
-#reason #bui .komi .disp_b{font-size: 1.75em; color: #939393;}
+#reason #bui .komi .disp_b{font-size: 1.75em; color: #FFB5B1;}
 #reason #bui .komi .c_pink{font-size: 3em; }
 #reason #counseling .title{font-size: 2em;}
 #reason #counseling .title .c_pink{font-size: 1.5em;}
@@ -189,7 +189,9 @@
 	#choice .mb100{margin-bottom: 50px;}
 
 }
-
+#faq .hl_1 { position: relative;}
+#faq .hl_1 .model{    position: absolute; bottom: 0; right: 0;}
+#faq .hl_1 .border{border-bottom: 3px solid #FFB5B1;}
 #faq{padding-bottom: 30px;}
 #faq .sub_title{font-size: 1.25em;}
 #faq h3{font-weight: bold; border-bottom: 1px dashed #FFB5B1; font-size: 1.75em; color: #FFB5B1; margin-bottom: 30px;}
@@ -202,10 +204,17 @@
 #faq .faq_box dl.open dt:after { content:"\f056";  right:25px; }
 #faq .faq_box dd { display:none; padding:25px; background: #fff; border: 3px solid #FFB5B1; border-radius: 0 0 10px 10px;}
 #faq:after{ content: ""; position: absolute; top: 100%; left: 50%;     margin-left: -60px; border: 60px solid transparent; border-top: 35px solid #FFF; z-index: 100;}
+
+	#faq .hl_1 .model img{max-height: 300px;}
+	@media (max-width: 991px){
+		#faq .hl_1 .model img{max-height: 200px;}
+	}
 	@media (max-width: 767px){
+		#faq .hl_1 .model img{max-height: 130px;}
 		#faq .faq_box dt:after { right:0; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); }
 	}
 	@media (max-width: 575px){
+		#faq .hl_1 .model img{display: none;}
 		#faq .sub_title {font-size: 1em;}
 		#faq .faq_box dt {padding: 10px 30px 10px 10px;}
 		#faq .faq_box dl.open dt:after { content:"\f056";  right:0; }
@@ -223,8 +232,10 @@
 
 #foot_contact .pink_box{border: 2px solid #FFB5B1;}
 #foot_contact{background:url(../image/contents/top/back4.jpg) no-repeat center bottom / cover;}
-#foot_contact h2{text-align: center;  line-height: 1.25em; font-size: 3.5em; }
-#foot_contact h2 span.sub{display: block; color: #D9B4AB; font-size: 0.5em;}
+#foot_contact h2{text-align: center; line-height: 1.25em;  font-size: 3.5em; }
+
+#foot_contact h2 span.sub img{max-height: 45px;}
+#foot_contact h2 span.sub{display: block; }
 #foot_contact .pink_box{ border-radius: 5px; background: #fff; }
 #foot_contact #tel{padding: 25px 10px;}
 #foot_contact #mail{padding: 0 10px;}
@@ -242,6 +253,7 @@
 }
 @media (min-width: 768px) and (max-width: 991px){
 	#foot_contact #mail p{ font-size: 20px;}
+	#foot_contact #tel img{ width: 35px;}
 }
 @media (max-width: 991px){
 	#foot_contact  a{ font-size: 30px;}
@@ -253,7 +265,8 @@
 	#foot_contact #tel img { width: 30px;}
 }
 @media (max-width: 575px){
-	#foot_contact h2 {    font-size: 2.5em}
+	#foot_contact h2 span.sub img{max-height: 20px;}
+	#foot_contact h2 {     line-height: 1em;   font-size: 2.5em}
 }
 
 /*===================================================================
@@ -274,16 +287,18 @@
 
 .hl_1{ position: relative;  color: #FFB5B1; font-size: 2.75em; font-weight: bold; text-align: center; border-bottom: 5px solid #FFB5B1; padding-bottom: 15px; margin-bottom: 60px;}
 
-.hl_2{margin-bottom: 40px; text-align:center;  line-height: 3.5em;}
+.hl_2{margin-bottom: 40px; text-align:center;  line-height: 4em;}
 .hl_2 .marker{ font-weight: bold; color: #F79C96; background: linear-gradient(transparent 80%, #FFFBD0 60%);  font-size: 3.5em;}
-.hl_2 .en{color: #E5C7C0; display: block;  font-size: 2.5em;}
+.hl_2 .en{display: block; }
+.hl_2 .en img{max-height: 50px;}
 
 @media(max-width:767px){
 	.hl_1{font-size: 2.25em;}
 }
 @media(max-width:575px){
+	.hl_2 .en img{max-height: 25px;}
 	.hl_1{font-size: 1.75em;}
-	.hl_2{margin-bottom: 30px; }
+	.hl_2{margin-bottom: 30px; line-height: 2.5em;}
 	.hl_2 .marker{  font-size: 2em;}
 	.hl_2 .en{font-size: 1.75em;}
 
@@ -303,7 +318,7 @@
 
 .button a{ position: relative; color: #fff!important; font-weight: bold; background: #FFB5B1; position: relative; padding: 15px 0; border-radius: 50px; display: block; width: 100%; text-align: center; max-width: 420px; margin: 0 auto; text-decoration: none!important; font-size: 2em;}
 .button a i{  position: absolute; top: 50%; right: 0; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
-.button._type2 a{    background: #fff; color: #FFB5B1!important; border: 5px solid #FFB5B1;}
+.button._type2 a{    background: #fff; color: #FFB5B1!important; border: 5px solid #FFB5B1;     border-radius: 20px; padding: 30px 0;}
 @media(max-width:575px){
 	.button a{ font-size: 1.5em;}
 }
@@ -320,7 +335,7 @@
 .form_button .button:hover { top: -4px; box-shadow: 0 7px 0 #D6D6D6;}
 .form_button .button:active { top: 3px; box-shadow: none;}
 .form_button .button i{position: absolute; top: 50%; right: 10px; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);}
-.button._back i{left: 25px;}
+.button._back i{left: 25px;     right: unset;}
 
 @media (max-width:767px){
 	.form_button .button{ max-width: 250px; min-width: auto;}

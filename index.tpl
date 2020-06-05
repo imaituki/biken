@@ -4,10 +4,6 @@
 <meta charset="utf-8">
 {include file=$template_meta}
 <link rel="stylesheet" href="/common2/css/import.css">
-<link rel="stylesheet" href="/common2/css/style.css">
-<link rel="stylesheet" href="/common2/css/layout.css">
-<link rel="stylesheet" href="/common2/css/base.css">
-<link rel="stylesheet" href="/common2/css/bootstrap-3-grid.css">
 {include file=$template_javascript}
 </head>
 <body id="top">
@@ -36,7 +32,7 @@
 			<div class="wrapper center">
 				<h2 class="hl_2">
 					<span class="marker">選べる脱毛プラン</span>
-					<span class="en">Plan</span>
+					<span class="en"><img src="/common2/image/contents/top/plan.png" alt="plan"></span>
 				</h2>
 				<div class="row">
 					<div class="col-xs-4 mb10">
@@ -84,9 +80,9 @@
 			<div class="center2 pos_re">
 				<h2 class="hl_2">
 					<span class="marker">選ばれる<span class="big">3</span>つの理由</span>
-					<span class="en">Reason</span>
+					<span class="en"><img src="/common2/image/contents/top/reason.png" alt="reason"></span>
 				</h2>
-				<div class="model"><img src="/common2/image/contents/top/reason.png" alt="自分にあった通い方が可能！"></div>
+				<div class="model"><img src="/common2/image/contents/top/reason_model.png" alt="自分にあった通い方が可能！"></div>
 			</div>
 			<div class="center">
 				<div class="box">
@@ -136,7 +132,7 @@
 						</div>
 					</div>
 					<div class="pos_ac yen">
-						<p class="_1">\顔・VIOも全部まるごと/</p>
+						<p class="_1">╲顔・VIOも全部まるごと／</p>
 						<p class="c_pink fw_bolid _2"><span>全身脱毛</span></p>
 						<p class="fw_bolid _3">月額 <span class="c_pink">9,000円～</span>（税別）</p>
 						<p class="_4">10ヵ月で脱毛卒業の圧倒的スピード</p>
@@ -176,7 +172,7 @@
 		<div id="clean" class="wrapper">
 			<h2 class="hl_2">
 				<span class="marker">コロナ対策への取り組み</span>
-				<span class="en">Measures</span>
+				<span class="en"><img src="/common2/image/contents/top/measures.png" alt="measures"></span>
 			</h2>
 			<div class="center">
 				<div class="unit">
@@ -196,7 +192,7 @@
 		<div id="under_20" class="wrapper">
 			<h2 class="hl_2">
 				<span class="marker">未成年の方へ</span>
-				<span class="en">To Minors</span>
+				<span class="en"><img src="/common2/image/contents/top/tominors.png" alt="tominors"></span>
 			</h2>
 			<div class="center">
 				<div class="box">
@@ -417,8 +413,11 @@
 	<section>
 		<div id="faq" class="wrapper-t">
 			<div class="center">
-				<p class="pos_ac c_pink  sub_title">\ あらゆる悩みやご不安にお答えします /</p>
-				<h2 class="hl_1"><span class="border">ご心配相談コーナー</span></h2>
+				<p class="pos_ac c_pink  sub_title">╲ あらゆる悩みやご不安にお答えします ／</p>
+				<h2 class="hl_1">
+					<span class="border">ご心配相談コーナー</span>
+					<p class="model"><img src="/common2/image/contents/top/faq.png" alt="faq"></p>
+				</h2>
 				<div class="faq_box">
 					<dl>
 						<dt>Q. 脱毛できない条件はありますか？</dt>
@@ -495,7 +494,7 @@
 	<section>
 		<div id="top_contact" class="wrapper">
 			<div class="center">
-				<p class="pos_ac star"><span>★</span>★\ 1パーツ脱毛体験付き /★<span>★</span></p>
+				<p class="pos_ac star"><span>★</span>★╲ 1パーツ脱毛体験付き　／★<span>★</span></p>
 				<div class="button _type2">
 					<a href="/contact/" class="ov">
 						無料カウンセリングを<br>

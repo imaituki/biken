@@ -1,9 +1,9 @@
 <footer>
 	<div id="foot_contact" class="wrapper">
 		<div class="center">
-			<h2 class="mb30">
+			<h2 class="mb50">
 				<span class="main c_pink">お問い合わせ</span>
-				<span class="sub">Contact</span></h2>
+				<span class="sub"><img src="/common2/image/foot/contact.png" alt="contact"></span></h2>
 			<div class="row">
 				<div class="unit">
 					<div class="col-sm-6 mb10">
@@ -25,7 +25,7 @@
 						<a href="mailto:info@la-vraie-beaut.jp" class="ov mail">
 							<div class="pink_box height-1_all disp_tbl">
 								<div id="mail" class="disp_td">
-									<p class="pos_ac"><i class="far fa-envelope"></i>info@la-vraie.beatu.jp</p>
+									<p class="pos_ac"><i class="far fa-envelope"></i>info@la-vraie-beaut.jp</p>
 									<p class="name c_pink">（メールでのお問い合わせも可）</p>
 								</div>
 							</div>

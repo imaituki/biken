@@ -4,10 +4,6 @@
 <meta charset="utf-8">
 {include file=$template_meta}
 <link rel="stylesheet" href="/common2/css/import.css">
- <link rel="stylesheet" href="/common2/css/style.css">
- <link rel="stylesheet" href="/common2/css/layout.css">
- <link rel="stylesheet" href="/common2/css/base.css">
- <link rel="stylesheet" href="/common2/css/bootstrap-3-grid.css">
 {include file=$template_javascript}
 </head>
 <body id="contact">
@@ -82,7 +78,7 @@
 							<tr>
 								<th scope="row">備考</th>
 								<td>
-									{$arr_post.comment|nl2br}
+									{$arr_post.comment|default:"--"|nl2br}
 									<input type="hidden" name="comment" value="{$arr_post.comment}">
 								</td>
 							</tr>
