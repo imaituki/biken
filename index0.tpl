@@ -28,25 +28,7 @@
 		</div>
 	</div>
 	<section>
-		<div id="plan">
-			<div class="wrapper center">
-				<h2 class="hl_2">
-					<span class="marker">選べる脱毛プラン</span>
-					<span class="en"><img src="/common2/image/contents/top/plan.png" alt="plan"></span>
-				</h2>
-				<div class="row">
-					<div class="col-xs-6 mb10">
-						<img src="/common2/image/contents/top/plan_a.jpg" alt="IPL脱毛">
-					</div>
-					<div class="col-xs-6 mb10">
-						<img src="/common2/image/contents/top/plan_b.jpg" alt="NPL脱毛">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div id="campaign" class="wrapper">
+		<div id="campaign" class="wrapper-b">
 			<div class="hl_balloon">
 				<div class="center2 unit">
 					<h2>
@@ -129,12 +111,14 @@
 						</div>
 					</div>
 					<div class="pos_ac yen">
-						<p class="_1"></p>
+						<p class="_1">╲顔・VIOも全部まるごと／</p>
 						<p class="c_pink fw_bolid _2"><span>全身脱毛</span></p>
-						<p class="fw_bolid _3">月額 <span class="c_pink">8,800円～</span>（税別）</p>
+						<p class="fw_bolid _3">月額 <span class="c_pink">9,000円～</span>（税別）</p>
 						<p class="_4">10ヵ月で脱毛卒業の圧倒的スピード</p>
 					</div>
 					<div id="bui">
+						<h2 class="hl_1">La vraie beautéの<br class="visible-only">全身脱毛は、<br class="visible-sm">ここがポイント</h2>
+						<p class="pos_ac fw_bold komi"><span class="disp_b">別料金になりがちな</span><span class="c_pink">顔・VIOも込みで！</span></p>
 						<p class="pos_ac mb20"><img src="/common2/image/contents/top/bui.jpg" alt="全身脱毛 顔・VIOも込み"></p>
 						<p class="mb30">※ヒザのお皿の下から足首（くるぶし）までが脱毛範囲です。<br>※ヒジの骨の下から手首の骨の手側までが脱毛範囲です。</p>
 					</div>

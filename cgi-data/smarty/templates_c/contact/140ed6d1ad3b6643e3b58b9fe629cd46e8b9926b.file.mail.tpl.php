@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-06-03 20:09:55
+<?php /* Smarty version Smarty-3.1.18, created on 2020-06-04 13:08:32
          compiled from "./mail.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:748442725ed767bf1aba78-70783128%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '140ed6d1ad3b6643e3b58b9fe629cd46e8b9926b' => 
     array (
       0 => './mail.tpl',
-      1 => 1591182589,
+      1 => 1591243567,
       2 => 'file',
     ),
   ),
@@ -62,6 +62,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 
 [備考内容]
-<?php echo (($tmp = @$_smarty_tpl->tpl_vars['arr_post']->value['comment'])===null||$tmp==='' ? '' : $tmp);?>
+<?php echo (($tmp = @$_smarty_tpl->tpl_vars['arr_post']->value['comment'])===null||$tmp==='' ? "--" : $tmp);?>
 
 <?php }} ?>

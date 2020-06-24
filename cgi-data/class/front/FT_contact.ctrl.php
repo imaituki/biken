@@ -85,12 +85,12 @@ class FT_contact {
 		$objInputCheck->entryData( "メールアドレス" , "mail", $arrVal["mail"], array( "CHECK_EMPTY", "CHECK_MAIL" ), null, null );
 		$objInputCheck->entryData( "電話番号", "tel", $arrVal["tel"], array( "CHECK_EMPTY", "CHECK_TEL" ), null, null );
 		$objInputCheck->entryData( "生年月日", "birthday", implode( "/", $arrVal["birthday"] ), array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
-		$objInputCheck->entryData( "ご希望日時（第1希望）", "date1", $arrVal["date1"], array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
-		$objInputCheck->entryData( "ご希望日時（第2希望）", "date2", $arrVal["date2"], array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
-		$objInputCheck->entryData( "ご希望日時（第3希望）", "date3", $arrVal["date3"], array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
-		$objInputCheck->entryData( "ご希望日時（第1希望）", "time1", $arrVal["time1"], array( "CHECK_EMPTY", "CHECK_NUM" ), null, null );
-		$objInputCheck->entryData( "ご希望日時（第2希望）", "time2", $arrVal["time2"], array( "CHECK_EMPTY", "CHECK_NUM" ), null, null );
-		$objInputCheck->entryData( "ご希望日時（第3希望）", "time3", $arrVal["time3"], array( "CHECK_EMPTY", "CHECK_NUM" ), null, null );
+		$objInputCheck->entryData( "ご希望日（第1希望）", "date1", $arrVal["date1"], array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
+		$objInputCheck->entryData( "ご希望日（第2希望）", "date2", $arrVal["date2"], array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
+		$objInputCheck->entryData( "ご希望日（第3希望）", "date3", $arrVal["date3"], array( "CHECK_EMPTY", "CHECK_DATE" ), null, null );
+		$objInputCheck->entryData( "ご希望時間（第1希望）", "time1", $arrVal["time1"], array( "CHECK_EMPTY", "CHECK_NUM" ), null, null );
+		$objInputCheck->entryData( "ご希望時間（第2希望）", "time2", $arrVal["time2"], array( "CHECK_EMPTY", "CHECK_NUM" ), null, null );
+		$objInputCheck->entryData( "ご希望時間（第3希望）", "time3", $arrVal["time3"], array( "CHECK_EMPTY", "CHECK_NUM" ), null, null );
 		// $objInputCheck->entryData( "備考内容", "comment", $arrVal["comment"], array( "CHECK_EMPTY" ), null, null );
 
 

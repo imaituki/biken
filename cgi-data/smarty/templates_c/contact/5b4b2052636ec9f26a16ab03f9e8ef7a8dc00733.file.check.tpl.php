@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-06-03 18:04:49
+<?php /* Smarty version Smarty-3.1.18, created on 2020-06-04 13:05:27
          compiled from "./check.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16031332155ed766df177cb7-59797723%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5b4b2052636ec9f26a16ab03f9e8ef7a8dc00733' => 
     array (
       0 => './check.tpl',
-      1 => 1591175080,
+      1 => 1591243524,
       2 => 'file',
     ),
   ),
@@ -36,10 +36,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_meta']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <link rel="stylesheet" href="/common2/css/import.css">
- <link rel="stylesheet" href="/common2/css/style.css">
- <link rel="stylesheet" href="/common2/css/layout.css">
- <link rel="stylesheet" href="/common2/css/base.css">
- <link rel="stylesheet" href="/common2/css/bootstrap-3-grid.css">
 <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_javascript']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 </head>
@@ -140,7 +136,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<tr>
 								<th scope="row">備考</th>
 								<td>
-									<?php echo nl2br($_smarty_tpl->tpl_vars['arr_post']->value['comment']);?>
+									<?php echo nl2br((($tmp = @$_smarty_tpl->tpl_vars['arr_post']->value['comment'])===null||$tmp==='' ? "--" : $tmp));?>
 
 									<input type="hidden" name="comment" value="<?php echo $_smarty_tpl->tpl_vars['arr_post']->value['comment'];?>
 ">

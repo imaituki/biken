@@ -24,4 +24,4 @@
 {$arr_post.date3|default:""} {$OptionTime[$arr_post.time3]}
 
 [備考内容]
-{$arr_post.comment|default:""}
+{$arr_post.comment|default:"--"}

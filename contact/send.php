@@ -105,8 +105,8 @@ if( empty( $message["ng"] ) ) {
 	$header2 .= "Content-Transfer-Encoding: 8bit\n";
 
 	// 管理者へ
-	// $error_flg2 = mb_send_mail( $mail_conf["info"]["admin_mail"], $mail_conf["master"]["title"], $mail2, $header2 );
-	$error_flg2 = mb_send_mail("office@web3.co.jp", $mail_conf["master"]["title"], $mail2, $header2 );
+	$error_flg2 = mb_send_mail( $mail_conf["info"]["admin_mail"], $mail_conf["master"]["title"], $mail2, $header2 );
+	// $error_flg2 = mb_send_mail("office@web3.co.jp", $mail_conf["master"]["title"], $mail2, $header2 );
 
 
 	// 送信チェック

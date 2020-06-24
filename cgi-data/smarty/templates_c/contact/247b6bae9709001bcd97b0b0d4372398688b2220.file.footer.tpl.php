@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-06-03 17:35:44
+<?php /* Smarty version Smarty-3.1.18, created on 2020-06-04 17:26:59
          compiled from "/usr/home/haw1007mxp9i/html/common2/include/footer.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16738163985ed760e04e4984-68176908%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '247b6bae9709001bcd97b0b0d4372398688b2220' => 
     array (
       0 => '/usr/home/haw1007mxp9i/html/common2/include/footer.tpl',
-      1 => 1591172355,
+      1 => 1591258366,
       2 => 'file',
     ),
   ),
@@ -15,16 +15,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.18',
   'unifunc' => 'content_5ed760e04e50a7_70268617',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5ed760e04e50a7_70268617')) {function content_5ed760e04e50a7_70268617($_smarty_tpl) {?><footer>
 	<div id="foot_contact" class="wrapper">
 		<div class="center">
-			<h2 class="mb30">
+			<h2 class="mb50">
 				<span class="main c_pink">お問い合わせ</span>
-				<span class="sub">Contact</span></h2>
+				<span class="sub"><img src="/common2/image/foot/contact.png" alt="contact"></span></h2>
 			<div class="row">
 				<div class="unit">
 					<div class="col-sm-6 mb10">
@@ -46,7 +46,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<a href="mailto:info@la-vraie-beaut.jp" class="ov mail">
 							<div class="pink_box height-1_all disp_tbl">
 								<div id="mail" class="disp_td">
-									<p class="pos_ac"><i class="far fa-envelope"></i>info@la-vraie.beatu.jp</p>
+									<p class="pos_ac"><i class="far fa-envelope"></i>info@la-vraie-beaut.jp</p>
 									<p class="name c_pink">（メールでのお問い合わせも可）</p>
 								</div>
 							</div>
@@ -66,4 +66,5 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <div id="copyright">© 2020 La vraie beauté  All Rights Reserved.</div>
 	</div>
 	<div id="pagetop" style=""><a href="javascript:void(0);"><span>↑</span></a></div>
-</footer><?php }} ?>
+</footer>
+<?php }} ?>
