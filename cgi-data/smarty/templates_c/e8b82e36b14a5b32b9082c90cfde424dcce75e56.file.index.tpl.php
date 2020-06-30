@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2020-06-04 17:21:09
+<?php /* Smarty version Smarty-3.1.18, created on 2020-06-19 23:09:51
          compiled from "./index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:427190705ed75b54b93080-27892006%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e8b82e36b14a5b32b9082c90cfde424dcce75e56' => 
     array (
       0 => './index.tpl',
-      1 => 1591258860,
+      1 => 1592575783,
       2 => 'file',
     ),
   ),
@@ -66,14 +66,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<span class="en"><img src="/common2/image/contents/top/plan.png" alt="plan"></span>
 				</h2>
 				<div class="row">
-					<div class="col-xs-4 mb10">
+					<div class="col-xs-6 mb10">
 						<img src="/common2/image/contents/top/plan_a.jpg" alt="IPL脱毛">
 					</div>
-					<div class="col-xs-4 mb10">
+					<div class="col-xs-6 mb10">
 						<img src="/common2/image/contents/top/plan_b.jpg" alt="NPL脱毛">
-					</div>
-					<div class="col-xs-4">
-						<img src="/common2/image/contents/top/plan_c.jpg" alt="IPL脱毛+NPL脱毛">
 					</div>
 				</div>
 			</div>
@@ -163,14 +160,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						</div>
 					</div>
 					<div class="pos_ac yen">
-						<p class="_1">╲顔・VIOも全部まるごと／</p>
+						<p class="_1"></p>
 						<p class="c_pink fw_bolid _2"><span>全身脱毛</span></p>
-						<p class="fw_bolid _3">月額 <span class="c_pink">9,000円～</span>（税別）</p>
+						<p class="fw_bolid _3">月額 <span class="c_pink">8,800円～</span>（税別）</p>
 						<p class="_4">10ヵ月で脱毛卒業の圧倒的スピード</p>
 					</div>
 					<div id="bui">
-						<h2 class="hl_1">La vraie beautéの<br class="visible-only">全身脱毛は、<br class="visible-sm">ここがポイント</h2>
-						<p class="pos_ac fw_bold komi"><span class="disp_b">別料金になりがちな</span><span class="c_pink">顔・VIOも込みで！</span></p>
 						<p class="pos_ac mb20"><img src="/common2/image/contents/top/bui.jpg" alt="全身脱毛 顔・VIOも込み"></p>
 						<p class="mb30">※ヒザのお皿の下から足首（くるぶし）までが脱毛範囲です。<br>※ヒジの骨の下から手首の骨の手側までが脱毛範囲です。</p>
 					</div>

@@ -1,41 +1,45 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.18, created on 2020-06-15 13:43:42
+         compiled from "./index0.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:20148893795ee6fc3f93f303-88592875%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'b0b50c31f0a0b5aa85b74f32ec73353438b59963' => 
+    array (
+      0 => './index0.tpl',
+      1 => 1592196218,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '20148893795ee6fc3f93f303-88592875',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.18',
+  'unifunc' => 'content_5ee6fc3f963349_97244711',
+  'variables' => 
+  array (
+    'template_meta' => 0,
+    'template_javascript' => 0,
+    'template_header' => 0,
+    'template_footer' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5ee6fc3f963349_97244711')) {function content_5ee6fc3f963349_97244711($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>La vraie beauté（ラブレボーテ）ｌオープン情報</title>
-<meta name="keywords" content="バイマッハ,ヴィクトリア,脱毛,美容脱毛,茨城,全身脱毛,ラブレボーテ,うぶ毛,日焼け">
-<meta name="description" content="ワキやVIOの毛根にアプローチする話題の脱毛機IPLと、うぶ毛脱毛に人気のNPLですべての女性をキレイに。全身脱毛・カウンセリングOK・予約がカンタン">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/common2/favicon/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/common2/favicon/favicon.ico" type="image/vnd.microsoft.icon">
-<link rel="apple-touch-icon" href="/common2/favicon/apple-touch-icon.png">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton&display=swap">
-<link rel="stylesheet" href="/common2/css/import.css">
- <link rel="stylesheet" href="/common2/css/style.css">
- <link rel="stylesheet" href="/common2/css/layout.css">
- <link rel="stylesheet" href="/common2/css/base.css">
- <link rel="stylesheet" href="/common2/css/bootstrap-3-grid.css">
+<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_meta']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-<script type="text/javascript" src="/common2/js/jquery.js"></script>
-<script type="text/javascript" src="/common2/js/script.js"></script>
+<link rel="stylesheet" href="/common2/css/import.css">
+<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_javascript']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 </head>
 <body id="top">
 <div id="base">
-	<header>
-	<div id="head">
-		<div class="head_wrap">
-			<div class="site_logo"><a href="/" class="ov">
-				<img src="/common2/image/head/logo.png" alt="La vraie beauté" class="no_fixd_logo">
-				<img src="/common2/image/head/fixd_logo.png" alt="La vraie beauté" class="fixd_logo">
-			</a></div>
-			<div id="head_contact">
-				<div class="contact_button _1"><a href="/recruit/" class="ov" target="_blank">採用情報<i class="fas fa-angle-right"></i></a></div>
-				<div class="contact_button _2"><a href="/contact/" class="ov">Web予約<i class="fas fa-angle-right"></i></a></div>
-			</div>
-		</div>
-	</div>
-	</header>
+<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_header']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 <main>
 <div id="body">
 	<div id="top_unit">
@@ -55,28 +59,7 @@
 		</div>
 	</div>
 	<section>
-		<div id="plan">
-			<div class="wrapper center">
-				<h2 class="hl_2">
-					<span class="marker">選べる脱毛プラン</span>
-					<span class="en">Plan</span>
-				</h2>
-				<div class="row">
-					<div class="col-xs-4 mb10">
-						<img src="/common2/image/contents/top/plan_a.jpg" alt="IPL脱毛">
-					</div>
-					<div class="col-xs-4 mb10">
-						<img src="/common2/image/contents/top/plan_b.jpg" alt="NPL脱毛">
-					</div>
-					<div class="col-xs-4">
-						<img src="/common2/image/contents/top/plan_c.jpg" alt="IPL脱毛+NPL脱毛">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div id="campaign" class="wrapper">
+		<div id="campaign" class="wrapper-b">
 			<div class="hl_balloon">
 				<div class="center2 unit">
 					<h2>
@@ -107,9 +90,9 @@
 			<div class="center2 pos_re">
 				<h2 class="hl_2">
 					<span class="marker">選ばれる<span class="big">3</span>つの理由</span>
-					<span class="en">Reason</span>
+					<span class="en"><img src="/common2/image/contents/top/reason.png" alt="reason"></span>
 				</h2>
-				<div class="model"><img src="/common2/image/contents/top/reason.png" alt="自分にあった通い方が可能！"></div>
+				<div class="model"><img src="/common2/image/contents/top/reason_model.png" alt="自分にあった通い方が可能！"></div>
 			</div>
 			<div class="center">
 				<div class="box">
@@ -159,7 +142,7 @@
 						</div>
 					</div>
 					<div class="pos_ac yen">
-						<p class="_1">\顔・VIOも全部まるごと/</p>
+						<p class="_1">╲顔・VIOも全部まるごと／</p>
 						<p class="c_pink fw_bolid _2"><span>全身脱毛</span></p>
 						<p class="fw_bolid _3">月額 <span class="c_pink">9,000円～</span>（税別）</p>
 						<p class="_4">10ヵ月で脱毛卒業の圧倒的スピード</p>
@@ -199,7 +182,7 @@
 		<div id="clean" class="wrapper">
 			<h2 class="hl_2">
 				<span class="marker">コロナ対策への取り組み</span>
-				<span class="en">Measures</span>
+				<span class="en"><img src="/common2/image/contents/top/measures.png" alt="measures"></span>
 			</h2>
 			<div class="center">
 				<div class="unit">
@@ -219,7 +202,7 @@
 		<div id="under_20" class="wrapper">
 			<h2 class="hl_2">
 				<span class="marker">未成年の方へ</span>
-				<span class="en">To Minors</span>
+				<span class="en"><img src="/common2/image/contents/top/tominors.png" alt="tominors"></span>
 			</h2>
 			<div class="center">
 				<div class="box">
@@ -440,8 +423,11 @@
 	<section>
 		<div id="faq" class="wrapper-t">
 			<div class="center">
-				<p class="pos_ac c_pink  sub_title">\ あらゆる悩みやご不安にお答えします /</p>
-				<h2 class="hl_1"><span class="border">ご心配相談コーナー</span></h2>
+				<p class="pos_ac c_pink  sub_title">╲ あらゆる悩みやご不安にお答えします ／</p>
+				<h2 class="hl_1">
+					<span class="border">ご心配相談コーナー</span>
+					<p class="model"><img src="/common2/image/contents/top/faq.png" alt="faq"></p>
+				</h2>
 				<div class="faq_box">
 					<dl>
 						<dt>Q. 脱毛できない条件はありますか？</dt>
@@ -518,7 +504,7 @@
 	<section>
 		<div id="top_contact" class="wrapper">
 			<div class="center">
-				<p class="pos_ac star"><span>★</span>★\ 1パーツ脱毛体験付き /★<span>★</span></p>
+				<p class="pos_ac star"><span>★</span>★╲ 1パーツ脱毛体験付き　／★<span>★</span></p>
 				<div class="button _type2">
 					<a href="/contact/" class="ov">
 						無料カウンセリングを<br>
@@ -531,54 +517,9 @@
 	</section>
 </div>
 </main>
-<footer>
-	<div id="foot_contact" class="wrapper">
-		<div class="center">
-			<h2 class="mb30">
-				<span class="main c_pink">お問い合わせ</span>
-				<span class="sub">Contact</span></h2>
-			<div class="row">
-				<div class="unit">
-					<div class="col-sm-6 mb10">
-						<a href="tel:0298220068" class="ov">
-						<div class="pink_box height-1_all">
-							<div id="tel">
-								<div class="mincho pos_ar">
-									<div class="flex">
-										<p class="height-2 img"><img src="../common/image/tel.png" alt="La vraie beauté"></p>
-										<p class="height-2">029-822-0068</p>
-									</div>
-								</div>
-								<p class="time c_pink">受付時間　11：00〜21：00（水曜定休）</p>
-							</div>
-						</div>
-						</a>
-					</div>
-					<div class="col-sm-6">
-						<a href="mailto:info@la-vraie-beaut.jp" class="ov mail">
-							<div class="pink_box height-1_all disp_tbl">
-								<div id="mail" class="disp_td">
-									<p class="pos_ac"><i class="far fa-envelope"></i>info@la-vraie.beatu.jp</p>
-									<p class="name c_pink">（メールでのお問い合わせも可）</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="foot">
-		<div class="foot_wrap center mb30">
-			<div class="mb20 logo"><a class="ov" href="/"><img src="/common2/image/foot/logo.png" alt="La vraie beauté"></a></div>
-			<p class="mb20">株式会社美研<br>茨城県土浦市大和町7-26　尾形テナントⅡ 2F（土浦駅近く）</p>
-			<p class="pos_ac c_pink fw_bold">電話:029-822-0068（11時～21時）　水曜定休</p>
-		</div>
-        <p class="privacy mb50"><a href="/privacy/">プライバシーポリシー</a></p>
-        <div id="copyright">© 2020 La vraie beauté  All Rights Reserved.</div>
-	</div>
-<div id="pagetop" style=""><a href="javascript:void(0);"><span>↑</span></a></div>
-</footer>
+<?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['template_footer']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 </div>
 </body>
 </html>
+<?php }} ?>
