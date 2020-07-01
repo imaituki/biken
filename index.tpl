@@ -55,7 +55,7 @@
 								<span class="flex_c"><img src="/common2/image/contents/top/kirakira.png" alt="OPEN記念キャンペーン"><span class="title">OPEN記念<br class="visible-only">キャンペーン</span><img src="/common2/image/contents/top/kirakira.png" alt="OPEN記念キャンペーン"></span>
 							</span>
 						</span>
-						<span class="under"><span class="day">2020年6月末</span><span class="small">まで</span></span>
+						<span class="under"><span class="day">2020年7月28日</span><span class="small">まで</span></span>
 					</h2>
 					<div class="model"><img src="/common2/image/contents/top/campaign.png" alt="OPEN記念キャンペーン"></div>
 				</div>
@@ -87,7 +87,7 @@
 						<div class="row">
 							<div class="col-xs-2 height-1 disp_tbl2">
 								<div class="disp_td">
-									<img src="/common2/image/contents/top/point1.png" alt="La vraie beauté（ラブレボーテ）">
+									<img src="/common2/image/contents/top/point1.png" alt="La vraie beauté（ラヴレボーテ）">
 								</div>
 							</div>
 							<div class="col-xs-10 col-10 height-1 disp_tbl2">
@@ -130,19 +130,15 @@
 					</div>
 					<div class="pos_ac yen">
 						<p class="_1"></p>
-						<p class="c_pink fw_bolid _2"><span>全身脱毛</span></p>
-						<p class="fw_bolid _3">月額 <span class="c_pink">8,800円～</span>（税別）</p>
-						<p class="_4">10ヵ月で脱毛卒業の圧倒的スピード</p>
+						<p class="c_pink fw_bolid _2 mb20"><span>全身脱毛</span></p>
+						<p class="_4">最短６ヶ月で脱毛卒業</p>
 					</div>
 					<div id="bui">
-						<p class="pos_ac mb20"><img src="/common2/image/contents/top/bui.jpg" alt="全身脱毛 顔・VIOも込み"></p>
-						<p class="mb30">※ヒザのお皿の下から足首（くるぶし）までが脱毛範囲です。<br>※ヒジの骨の下から手首の骨の手側までが脱毛範囲です。</p>
+						<p class="pos_ac mb30"><img src="/common2/image/contents/top/bui.jpg" alt="全身脱毛 顔・VIOも込み"></p>
 					</div>
 					<div id="counseling">
 						<p class="pos_ac fw_bold mb50 title">
-							<span class="c_pink ">無料カウンセリングで<br>
-							あなたの肌タイプ</span><br class="visible-only">を診断！
-						</p>
+							<span class="c_pink ">無料カウンセリング</span></p>
 						<div class="row mb50">
 							<div class="col-sm-6">
 								<img src="/common2/image/contents/top/image1.png" alt="無料カウンセリング">
@@ -195,7 +191,7 @@
 					<p class=" c_pink fw_bold pos_ac mb50 sub_title"><img src="/common2/image/contents/top/kirakira_2.jpg" alt="親御さんとご来店OK！"><span class="text">保護者の方と一緒にカウンセリングをお受けいただけます。</span><img src="/common2/image/contents/top/kirakira_2.jpg" alt="保護者の方と一緒にカウンセリングをお受けいただけます。"></p>
 					<div class="row unit mb30">
 						<div class="col-sm-6 col-sm-push-6">
-							<img src="/common2/image/contents/top/image2.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/image2.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 						<div class="col-sm-6 col-sm-pull-6">
 							<p class="mb10">親御様としては、心配な点や不明な点もあるかと思います。<br>その際は、お嬢様とご相談いただいた上で、<br>よろしければ当サロンの無料カウンセリングにご来店いただければと思います。<br>サロンスタッフから、より詳しくご説明をいたします。<br>また、実際の施術に使うマシンをお試しいただけます。</p>
@@ -204,7 +200,7 @@
 					</div>
 					<div class="row unit mb30">
 						<div class="col-sm-6">
-							<img src="/common2/image/contents/top/image3.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/image3.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 						<div class="col-sm-6">
 							<p class=" c_pink fw_bold mb30 title">親御様もお嬢様とご一緒に！</p>
@@ -216,7 +212,7 @@
 						<p class="fw_bold  mb30 border fs"><span>保護者の方からよく耳にするご心配の声について、La vraie beautéからお伝えしたいことがあります。</span></p>
 						<p class="mb30">近年、脱毛は若い女性の間で一般的な行為になってきました。<br>時間も手間もかかり、お肌も傷つけてしまう自己処理から、いち早く自由になることができるのです。</p>
 						<p>ひとくちに脱毛と言っても、いろいろな方法があります。<br><span class="fw_bold">毛穴に針を刺して脱毛を行う「ニードル脱毛」</span>や、<span class="fw_bold">出力の高い医療用レーザーで脱毛する「レーザー脱毛」</span>もその一つ。<br>
-						しかし、これらの方法は<span class="fw_bold">施術による痛みが強いため、お肌トラブルを引き起こす</span>ことも多く、また<span class="fw_bold">料金が高額になってしまうというデメリット</span>もあります。<br>
+						しかし、これらの方法は<span class="fw_bold">施術による痛みが強いため、お肌トラブルを引き起こす</span>こともあり、また<span class="fw_bold">料金が高額になってしまうというデメリット</span>もあります。<br>
 						La vraie beautéで採用しているのは「<span class="fw_bold">光脱毛</span>」。<br>
 						<span class="fw_bold">レーザーよりも出力の弱い光をムダ毛に照射して、徐々に脱毛</span>していく方法です。照射する光が強すぎないため、<span class="fw_bold">痛みはほぼなく、安心して受けていただけます</span>。<br>
 						また、他の脱毛方法と比べると<span class="fw_bold">お手頃な価格でご提供</span>できるのも大きなメリットです。</p>
@@ -230,11 +226,11 @@
 			<div class="pos_re mb100">
 				<div class="row no-gutters">
 					<div class="col-xs-6">
-						<img src="/common2/image/contents/top/choice1.jpg" alt="La vraie beauté（ラブレボーテ）">
+						<img src="/common2/image/contents/top/choice1.jpg" alt="La vraie beauté（ラヴレボーテ）">
 
 					</div>
 					<div class="col-xs-6">
-						<img src="/common2/image/contents/top/choice2.jpg" alt="La vraie beauté（ラブレボーテ）">
+						<img src="/common2/image/contents/top/choice2.jpg" alt="La vraie beauté（ラヴレボーテ）">
 
 					</div>
 				</div>
@@ -378,22 +374,22 @@
 				<div class="row no-gutters mb30">
 					<div class="col-xs-3 col-6">
 						<div class="img_sq">
-							<img src="/common2/image/contents/top/photo1.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/photo1.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 					</div>
 					<div class="col-xs-3 col-6">
 						<div class="img_sq">
-							<img src="/common2/image/contents/top/photo2.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/photo2.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 					</div>
 					<div class="col-xs-3 col-6">
 						<div class="img_sq">
-							<img src="/common2/image/contents/top/photo3.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/photo3.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 					</div>
 					<div class="col-xs-3 col-6">
 						<div class="img_sq">
-							<img src="/common2/image/contents/top/photo4.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/photo4.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 					</div>
 				</div>
@@ -441,7 +437,7 @@
 				<div class="faq_box">
 					<dl>
 						<dt>Q. お手入れの際の服装や持ち物は？</dt>
-						<dd>みなさまそれぞれ、ご自身やご家族の夢や目標をお持ちだと思います。<br>
+						<dd>
 							お手入れの前に、専用のお手入れ着にお着替えいただきますので、ご来店時の服装に指定はございません。お顔の脱毛をされる場合は、お手入れ前にメイクオフをお願いしておりますので、ご必要に応じて、お客さまのメイク用品をご持参くださいませ。
 						</dd>
 					</dl>

@@ -118,7 +118,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<div class="row">
 							<div class="col-xs-2 height-1 disp_tbl2">
 								<div class="disp_td">
-									<img src="/common2/image/contents/top/point1.png" alt="La vraie beauté（ラブレボーテ）">
+									<img src="/common2/image/contents/top/point1.png" alt="La vraie beauté（ラヴレボーテ）">
 								</div>
 							</div>
 							<div class="col-xs-10 col-10 height-1 disp_tbl2">
@@ -226,7 +226,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<p class=" c_pink fw_bold pos_ac mb50 sub_title"><img src="/common2/image/contents/top/kirakira_2.jpg" alt="親御さんとご来店OK！"><span class="text">保護者の方と一緒にカウンセリングをお受けいただけます。</span><img src="/common2/image/contents/top/kirakira_2.jpg" alt="保護者の方と一緒にカウンセリングをお受けいただけます。"></p>
 					<div class="row unit mb30">
 						<div class="col-sm-6 col-sm-push-6">
-							<img src="/common2/image/contents/top/image2.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/image2.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 						<div class="col-sm-6 col-sm-pull-6">
 							<p class="mb10">親御様としては、心配な点や不明な点もあるかと思います。<br>その際は、お嬢様とご相談いただいた上で、<br>よろしければ当サロンの無料カウンセリングにご来店いただければと思います。<br>サロンスタッフから、より詳しくご説明をいたします。<br>また、実際の施術に使うマシンをお試しいただけます。</p>
@@ -235,7 +235,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					</div>
 					<div class="row unit mb30">
 						<div class="col-sm-6">
-							<img src="/common2/image/contents/top/image3.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/image3.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 						<div class="col-sm-6">
 							<p class=" c_pink fw_bold mb30 title">親御様もお嬢様とご一緒に！</p>
@@ -261,11 +261,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="pos_re mb100">
 				<div class="row no-gutters">
 					<div class="col-xs-6">
-						<img src="/common2/image/contents/top/choice1.jpg" alt="La vraie beauté（ラブレボーテ）">
+						<img src="/common2/image/contents/top/choice1.jpg" alt="La vraie beauté（ラヴレボーテ）">
 
 					</div>
 					<div class="col-xs-6">
-						<img src="/common2/image/contents/top/choice2.jpg" alt="La vraie beauté（ラブレボーテ）">
+						<img src="/common2/image/contents/top/choice2.jpg" alt="La vraie beauté（ラヴレボーテ）">
 
 					</div>
 				</div>
@@ -409,22 +409,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<div class="row no-gutters mb30">
 					<div class="col-xs-3 col-6">
 						<div class="img_sq">
-							<img src="/common2/image/contents/top/photo1.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/photo1.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 					</div>
 					<div class="col-xs-3 col-6">
 						<div class="img_sq">
-							<img src="/common2/image/contents/top/photo2.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/photo2.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 					</div>
 					<div class="col-xs-3 col-6">
 						<div class="img_sq">
-							<img src="/common2/image/contents/top/photo3.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/photo3.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 					</div>
 					<div class="col-xs-3 col-6">
 						<div class="img_sq">
-							<img src="/common2/image/contents/top/photo4.jpg" alt="La vraie beauté（ラブレボーテ）">
+							<img src="/common2/image/contents/top/photo4.jpg" alt="La vraie beauté（ラヴレボーテ）">
 						</div>
 					</div>
 				</div>
