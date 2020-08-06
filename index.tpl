@@ -134,7 +134,8 @@
 						<p class="_4">最短６ヶ月で脱毛卒業</p>
 					</div>
 					<div id="bui">
-						<p class="pos_ac mb30"><img src="/common2/image/contents/top/bui.jpg" alt="全身脱毛 顔・VIOも込み"></p>
+						<p class="pos_ac"><img src="/common2/image/contents/top/bui.jpg" alt="全身脱毛 顔・VIOも込み"></p>
+						<p class="mb50"><img src="/common2/image/contents/top/price.jpg" alt="全身脱毛 顔・VIOも込み"></p>
 					</div>
 					<div id="counseling">
 						<p class="pos_ac fw_bold mb50 title">
@@ -150,7 +151,7 @@
 						</div>
 					</div>
 					<div class="button mb50">
-						<a href="/contact/" class="ov">
+						<a href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000496464&smb=1" target="_blank" class="ov">
 							無料カウンセリングを<br>予約する
 							<i class="fas fa-angle-right"></i>
 						</a>
@@ -445,7 +446,7 @@
 				<div class="faq_box">
 					<dl>
 						<dt>Q. どのくらいのペースで通えばいいですか？</dt>
-						<dd>毛周期に合わせたIPL脱毛プランは、前回お手入れ日より最低45日空けてご来店いただくようお願いしおります。毛周期に関係なくお手入れができるNPL脱毛プランは、前回お手入れ日より最低20日空けてご来店いただくようお願いしております。</dd>
+						<dd>毛周期に合わせたIPL脱毛プランは、前回お手入れ日より最低１カ月空けてご来店いただくようお願いしおります。毛周期に関係なくお手入れができるNPL脱毛プランは、前回お手入れ日より最低2週間空けてご来店いただくようお願いしております。</dd>
 					</dl>
 				</div>
 				<div class="faq_box">
@@ -459,15 +460,14 @@
 				<div class="faq_box">
 					<dl>
 						<dt>Q. どれくらい先まで予約をとれますか？</dt>
-						<dd>次回のご予約分を6ヶ⽉先の⽇付までお選びいただけます。
+						<dd>次回のご予約分を2ヶ⽉先の⽇付までお選びいただけます。
 						</dd>
 					</dl>
 				</div>
 				<div class="faq_box">
 					<dl>
 						<dt>Q. 予約変更はできますか？</dt>
-						<dd>変更可能です！3⽇前までにお伝え頂くと嬉しいです！<br>
-							当⽇変更される場合は、当⽇19時までにご連絡を頂ければ、追加料⾦なしにご予約変更が可能です。
+						<dd>変更可能ですが、前日までにお願い致します。当日変更の場合は１回分消化になりますのでご了承ください。
 						</dd>
 					</dl>
 				</div>
@@ -487,7 +487,7 @@
 			<div class="center">
 				<p class="pos_ac star"><span>★</span>★╲ 1パーツ脱毛体験付き　／★<span>★</span></p>
 				<div class="button _type2">
-					<a href="/contact/" class="ov">
+					<a href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000496464&smb=1" target="_blank" class="ov">
 						無料カウンセリングを<br>
 						予約する
 						<i class="fas fa-angle-right"></i>

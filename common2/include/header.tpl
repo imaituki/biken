@@ -7,7 +7,7 @@
 			</a></div>
 			<div id="head_contact">
 				<div class="contact_button _1"><a href="/recruit/" class="ov" target="_blank">採用情報<i class="fas fa-angle-right"></i></a></div>
-				<div class="contact_button _2"><a href="/contact/" class="ov">Web予約<i class="fas fa-angle-right"></i></a></div>
+				<div class="contact_button _2"><a href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000496464&smb=1" target="_blank" class="ov">Web予約<i class="fas fa-angle-right"></i></a></div>
 			</div>
 		</div>
 	</div>
