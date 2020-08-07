@@ -55,19 +55,14 @@
 								<span class="flex_c"><img src="/common2/image/contents/top/kirakira.png" alt="OPEN記念キャンペーン"><span class="title">OPEN記念<br class="visible-only">キャンペーン</span><img src="/common2/image/contents/top/kirakira.png" alt="OPEN記念キャンペーン"></span>
 							</span>
 						</span>
-						<span class="under"><span class="day">2020年7月28日</span><span class="small">まで</span></span>
+						<span class="under"><span class="day">2020年8月31日</span><span class="small">まで</span></span>
 					</h2>
 					<div class="model"><img src="/common2/image/contents/top/campaign.png" alt="OPEN記念キャンペーン"></div>
 				</div>
 			</div>
 			<div class="center">
-				<div class="row">
-					<div class="col-xs-6 mb10">
-						<img src="/common2/image/contents/top/tokuten1.jpg" alt="全身脱毛2回分無料　ワキ・腕、うなじ・背中、太もも・ひざ下のお好きな部位脱毛も可">
-					</div>
-					<div class="col-xs-6">
-						<img src="/common2/image/contents/top/tokuten2.jpg" alt="フォトフェイシャル１回分無料">
-					</div>
+				<div class="pos_ac mb10">
+					<img src="/common2/image/contents/top/tokuten1.jpg" alt="全身脱毛2回分無料　ワキ・腕、うなじ・背中、太もも・ひざ下のお好きな部位脱毛も可">
 				</div>
 			</div>
 		</div>
