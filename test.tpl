@@ -26,6 +26,39 @@
 				</div>
 			</div>
 		</div>
+		<style media="screen">
+			{literal}
+
+			.top_youtube { width:100%; z-index:100;  }
+			.top_youtube a { display:block; background:#FFB5B1; color:#fff; text-decoration:none; text-align:center; }
+			.top_youtube .youtube_wrap { border:3px solid #FFB5B1; }
+			@media (min-width:576px) {
+			.top_youtube .youtube_wrap { max-width:330px;     margin: 0 auto;}
+			}
+			@media (min-width:768px) {
+				.top_youtube { position:absolute; left:0; bottom: -70px;}
+				.top_youtube .youtube_wrap {margin:0 0 0 auto; }
+			}
+			@media (max-width:767px) {
+				.top_youtube{position: relative; padding: 15px 0;}
+				.top_youtube {    position: relative;}
+			}
+			@media (min-width:768px) and (max-width:991px) {
+				.top_youtube .youtube_wrap {max-width: 260px;}
+				.top_youtube{    bottom: -60px;}
+			}
+			{/literal}
+		</style>
+		<div class="top_youtube">
+			<div class="center">
+				<div class="youtube_wrap">
+					<a href="https://www.youtube.com/embed/8BnXI2Q_G24" target="_blank" class="ga_link"><i class="fab fa-youtube"></i> YouTube動画を見る</a>
+					<div class="youtube">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/BENAmY1gj5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<section>
 		<div id="plan">
